@@ -26,4 +26,3 @@ struct AnimationClip
 
 	bool loadFromFile(const std::string& filePath);
 };
-

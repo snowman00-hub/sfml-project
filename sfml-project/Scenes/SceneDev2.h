@@ -1,5 +1,6 @@
 #pragma once
 #include "Scene.h"
+
 class SceneDev2 : public Scene
 {
 protected:
@@ -10,6 +11,4 @@ public:
 	void Init() override;
 	void Enter() override;
 	void Update(float dt) override;
-
 };
-
