@@ -44,4 +44,3 @@ public:
 };
 
 #define SOUND_MGR (SoundMgr::Instance())
-

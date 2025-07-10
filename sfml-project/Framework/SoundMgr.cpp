@@ -94,6 +94,11 @@ void SoundMgr::SetSfxVolume(float v)
 	{
 		sound->setVolume(sfxVolume);
 	}
+
+	for (auto sound : waiting)
+	{
+		sound->setVolume(sfxVolume);
+	}
 }
 
 void SoundMgr::StopAllSfx()
